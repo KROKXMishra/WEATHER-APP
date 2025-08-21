@@ -1,0 +1,118 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:whitesmoke;
+}
+
+.main {
+  width: 90%;
+  max-width: 480px;
+  text-align: center;
+}
+
+.head {
+  font-size: 30px;
+  margin-bottom: 20px;
+  line-height: 45px;
+  color: #ff5e62;
+  font-weight: 700;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.25);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.srch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.srch input {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+  font-size: 1rem;
+  width: 70%;
+}
+
+.srch button {
+  background: #ff5e62;
+  border: none;
+  padding: 0 15px;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.srch button:hover {
+  background: #f57b3e;
+}
+
+.srch img {
+  width: 20px;
+}
+
+.weather {
+  margin-top: 15px;
+}
+
+.w_icon {
+  width: 120px;
+  margin: 15px auto;
+}
+
+.temp {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.city {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.col img {
+  width: 35px;
+}
+
+.col p:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
